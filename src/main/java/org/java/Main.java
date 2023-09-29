@@ -24,7 +24,7 @@ public class Main {
 		try {
 			System.out.println("Prova divisioine: " + calcolo.divide(num1, 0));
 		}catch(Exception e) {
-			System.out.println(e.getMessage());
+			System.out.println("ERRORE: " + e.getMessage());
 		}
 		try {
 			System.out.println("Prova divisioine: " + calcolo.divide(num1, num2));
